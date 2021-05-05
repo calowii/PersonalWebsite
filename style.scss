@@ -13,18 +13,9 @@ html,body{
 }
 
 .front{
-  height:100%;
   background-color: #D3967A;
   margin-right:20%;
   margin-left:20%;
-}
-
-h1{
-    font-family: "UbuntuMono";
-}
-
-h2{
-    font-family: "PatrickHand";
 }
 
 nav {
@@ -32,8 +23,6 @@ nav {
       margin: 0 auto;
       display: block;
 
-    
-      padding: 120px 0 0 0;  
       text-align: center;
       font-size: 16px;
   
@@ -51,6 +40,8 @@ nav {
   
       li a {
         color: white;
+        font-family:"UbuntuMono";
+        font-size:20px;
       }
   
       li a:hover {
@@ -107,6 +98,7 @@ nav {
   
    .intro{
      text-align: center;
+     font-family: "UbuntuMono";
    }
 
    .port{
@@ -115,13 +107,14 @@ nav {
      height:40%
    }
 
-   .wrapper{
-
-   }
-
    .box1{
      float:left;
      width:50%;
+     font-size:30px;
+     text-align:center;
+     font-family: "UbuntuMono";
+     margin-top:150px;
+     margin-bottom: 110px;
    }
 
    .box2{
@@ -132,11 +125,50 @@ nav {
 
    img.rounded-corners {
     border-radius: 50%;
-    height:300px;
-    width:300px;
+  }
+
+  .about{
+    margin-top:50px;
+    padding-top:120px;
+    text-align: center;
+     font-family: "UbuntuMono";
+  }
+
+  .certificates{
+    text-align: center;
+     font-family: "UbuntuMono";
+     padding-left:150px;
+  }
+
+  .projects{
+    text-align: center;
+     font-family: "UbuntuMono";
   }
 
   .footer{
     position:fixed;
     width:100%
   }
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+ 
