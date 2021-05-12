@@ -1,19 +1,19 @@
 @font-face {
     font-family: "PatrickHand";
-    src: url("PatrickHand-Regular.ttf") format("truetype");
+    src: url("../PatrickHand-Regular.ttf") format("truetype");
   }
   @font-face {
     font-family: "UbuntuMono";
-    src: url("UbuntuMono-Regular.ttf") format("truetype");
+    src: url("../UbuntuMono-Regular.ttf") format("truetype");
   }
 
 html,body{
-  background-image: url("/img/bg.jpg");
+  background-image: url("../img/bg.jpg");
   height:100%
 }
 
 .front{
-  background-color: #D3967A;
+  background-color: white;
   margin-right:20%;
   margin-left:20%;
 }
@@ -39,7 +39,7 @@ nav {
       }
   
       li a {
-        color: white;
+        color: #604f3d;
         font-family:"UbuntuMono";
         font-size:20px;
       }
@@ -128,21 +128,25 @@ nav {
   }
 
   .about{
-    margin-top:50px;
-    padding-top:120px;
+    margin-top:350px;
+    padding-top:160px;
     text-align: center;
      font-family: "UbuntuMono";
   }
 
   .certificates{
+    margin-top:200px;
     text-align: center;
      font-family: "UbuntuMono";
-     padding-left:150px;
+     margin-left:70px;
+     margin-right:70px;
   }
 
   .projects{
+    margin-top:400px;
     text-align: center;
      font-family: "UbuntuMono";
+     width:100%;
   }
 
   .footer{
@@ -152,7 +156,7 @@ nav {
 
   div.gallery {
     margin: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #604f3d;
     float: left;
     width: 180px;
   }

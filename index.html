@@ -4,7 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Calo Codes | Software Developer</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.css">
     </head>
 <body>
   <div class="front">
@@ -13,13 +15,9 @@
         <nav role="navigation" class="primary-navigation">
             <ul>
               <li><a href="#">01. Home</a></li>
-              <li><a href="#">02. About</a></li>
-              <li><a href="#">03. Certificates</a></li>
-              <li><a href="#">04. My Work &dtrif;</a>
-                <ul class="dropdown">
-                  <li><a href="#">4.1 Software Projects</a></li>
-                  <li><a href="#">4.2 Photography</a></li>
-                </ul>
+              <li><a href="#about_">02. About</a></li>
+              <li><a href="#certificates_">03. Certificates</a></li>
+              <li><a href="#">04. My Work</a>
               </li>
               <li><a href="#">05. Contact</a></li>
             </ul>
@@ -37,54 +35,100 @@
         </div>
       </div>
 
+      <a id="about_">
       <div class="about">
         <h2>02. About</h2>
-        I'm an experienced software engineer and software development graduate. I'm interest in all aspects of computing but my favourites are web development and software development.
-        When I'm not coding I am either reading a book or horse riding. I'm always positive and friendly and love to spread happiness!
-      </div>
+          <h3>I'm an experienced software engineer and software development graduate. I'm interest in all aspects of computing but my favourites are web development and software development.
+          When I'm not coding I am either reading a book or horse riding. I'm always positive and friendly and love to spread happiness!</h3>
+        </div>
+      </a>
 
+      <a id="certificates_">
       <div class="certificates">
         <h2>03. Certificates</h2>
         <div class="gallery">
-          <a target="_blank" href="img_5terre.jpg">
-            <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+          <a target="_blank" href="img/bsc.jpg">
+            <img src="img/bsc.jpg" alt="Bachelors Degree" width="600" height="400">
           </a>
-          <div class="desc">Add a description of the image here</div>
+          <div class="desc">I earned my bachelors degree at Robert Gordons University.</div>
+        </div>
+      </a>
+        
+        <div class="gallery">
+          <a target="_blank" href="img/js.jpg">
+            <img src="img/js.jpg" alt="Javascript" width="600" height="400">
+          </a>
+          <div class="desc">SoloLearn JavaScript certificate.</div>
         </div>
         
         <div class="gallery">
-          <a target="_blank" href="img_forest.jpg">
-            <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+          <a target="_blank" href="img/reactredux.jpg">
+            <img src="img/reactredux.jpg" alt="React & Redux" width="600" height="400">
           </a>
-          <div class="desc">Add a description of the image here</div>
+          <div class="desc">SoloLearn React & Redux Certificate.</div>
         </div>
-        
+
         <div class="gallery">
-          <a target="_blank" href="img_lights.jpg">
-            <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+          <a target="_blank" href="img/reactredux.jpg">
+            <img src="img/reactredux.jpg" alt="React & Redux" width="600" height="400">
           </a>
-          <div class="desc">Add a description of the image here</div>
+          <div class="desc">SoloLearn React & Redux Certificate.</div>
         </div>
-        
+                
         <div class="gallery">
-          <a target="_blank" href="img_mountains.jpg">
-            <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+          <a target="_blank" href="img/electronics.jpg">
+            <img src="img/electronics.jpg" alt="Electronics" width="600" height="400">
           </a>
-          <div class="desc">Add a description of the image here</div>
+          <div class="desc">Open University Certficate for Introduction to Electronics</div>
         </div>
       </div>
 
       <div class="projects">
         <h2>04. Projects</h2>
-        I'm an experienced software engineer and software development graduate. I'm interest in all aspects of computing but my favourites are web development and software development.
-        When I'm not coding I am either reading a book or horse riding. I'm always positive and friendly and love to spread happiness!
+        Have a look at some of my work below!
       </div>
 
-      <div id=footer>
+      <div class="projects">
+        <h2>04. Contact Me.</h2>
+        Have any questions or ideas which you want to make come to life? Leave me a message below!
+
+        <form role="form" id="contactForm" data-toggle="validator" class="shake">
+          <div class="row">
+              <div class="form-group col-sm-6">
+                  <label for="name" class="h4">Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter name" required data-error="NEW ERROR MESSAGE">
+                  <div class="help-block with-errors"></div>
+              </div>
+              <div class="form-group col-sm-6">
+                  <label for="email" class="h4">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                  <div class="help-block with-errors"></div>
+              </div>
+          </div>
+          <div class="form-group">
+              <label for="message" class="h4 ">Message</label>
+              <textarea id="message" class="form-control" rows="5" placeholder="Enter your message" required></textarea>
+              <div class="help-block with-errors"></div>
+          </div>
+          <button type="submit" id="form-submit" class="btn btn-success btn-lg pull-right ">Submit</button>
+          <div id="msgSubmit" class="h3 text-center hidden"></div>
+          <div class="clearfix"></div>
+      </form>
       </div>
 
+    
+    </div>
+
+    <div id=footer>
     </div>
 
     
 </body>
+
+<script  type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/validator.min.js"></script>
+<script type="text/javascript" src="js/form-scripts.js"></script>
+
+
+
 </html>
