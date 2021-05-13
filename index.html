@@ -7,19 +7,22 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 <body>
   <div class="front">
       <div class="header">
-        <img src="img/logo.jpg" style="width:100%">
+        <img src="img/logocenter.jpg" style="width:100%">
+        <br>
+        <br>
         <nav role="navigation" class="primary-navigation">
             <ul>
               <li><a href="#">01. Home</a></li>
               <li><a href="#about_">02. About</a></li>
               <li><a href="#certificates_">03. Certificates</a></li>
-              <li><a href="#">04. My Work</a>
+              <li><a href="#pro">04. My Work</a>
               </li>
-              <li><a href="#">05. Contact</a></li>
+              <li><a href="#contactme">05. Contact</a></li>
             </ul>
           </nav>
 
@@ -27,8 +30,7 @@
 
       <div class="wrapper">
         <div class="box1">
-          <h1>Hello World,</h1>
-          <h1>I'm Chloe.</h1>
+          <h1 class="ml13">Hello World, <br> I'm Chloe.</h1>
         </div>
         <div class="box2">
            <img src="img/calo.jpg" class="rounded-corners"  style="width:500px;height:500px"> 
@@ -38,8 +40,8 @@
       <a id="about_">
       <div class="about">
         <h2>02. About</h2>
-          <h3>I'm an experienced software engineer and software development graduate. I'm interest in all aspects of computing but my favourites are web development and software development.
-          When I'm not coding I am either reading a book or horse riding. I'm always positive and friendly and love to spread happiness!</h3>
+          <h4>I'm an experienced software engineer and software development graduate. I'm interest in all aspects of computing but my favourites are web development and software development.
+          When I'm not coding I am either reading a book or horse riding. I'm always positive and friendly and love to spread happiness!</h4>
         </div>
       </a>
 
@@ -69,10 +71,10 @@
         </div>
 
         <div class="gallery">
-          <a target="_blank" href="img/reactredux.jpg">
-            <img src="img/reactredux.jpg" alt="React & Redux" width="600" height="400">
+          <a target="_blank" href="img/pyfords.jpg">
+            <img src="img/pyfords.jpg" alt="Py for DataScience" width="600" height="400">
           </a>
-          <div class="desc">SoloLearn React & Redux Certificate.</div>
+          <div class="desc">SoloLearn Python for Data Science Certificate.</div>
         </div>
                 
         <div class="gallery">
@@ -81,53 +83,61 @@
           </a>
           <div class="desc">Open University Certficate for Introduction to Electronics</div>
         </div>
+
+        <!--- <div class="gallery">
+          <a target="_blank" href="img/digifor.jpg">
+            <img src="img/digifor.jpg" alt="Digital Forensics" width="600" height="400">
+          </a>
+          <div class="desc">Open University Certficate for Digital Forensics</div>
+        </div>
+
+        <div class="gallery">
+          <a target="_blank" href="img/reswebdesign.jpg">
+            <img src="img/reswebdesign.jpg" alt="Responsive Web Design" width="600" height="400">
+          </a>
+          <div class="desc">SoloLearn Responsive Web Design Certificate.</div>
+        </div> !--->
       </div>
 
+      <a id="pro">
       <div class="projects">
         <h2>04. Projects</h2>
-        Have a look at some of my work below!
+        Come back soon to see some of my work!
       </div>
+      </a>
 
-      <div class="projects">
+      <a id="contactme">
+      <div class="cont">
         <h2>04. Contact Me.</h2>
-        Have any questions or ideas which you want to make come to life? Leave me a message below!
-
-        <form role="form" id="contactForm" data-toggle="validator" class="shake">
-          <div class="row">
-              <div class="form-group col-sm-6">
-                  <label for="name" class="h4">Name</label>
-                  <input type="text" class="form-control" id="name" placeholder="Enter name" required data-error="NEW ERROR MESSAGE">
-                  <div class="help-block with-errors"></div>
-              </div>
-              <div class="form-group col-sm-6">
-                  <label for="email" class="h4">Email</label>
-                  <input type="email" class="form-control" id="email" placeholder="Enter email" required>
-                  <div class="help-block with-errors"></div>
-              </div>
-          </div>
-          <div class="form-group">
-              <label for="message" class="h4 ">Message</label>
-              <textarea id="message" class="form-control" rows="5" placeholder="Enter your message" required></textarea>
-              <div class="help-block with-errors"></div>
-          </div>
-          <button type="submit" id="form-submit" class="btn btn-success btn-lg pull-right ">Submit</button>
-          <div id="msgSubmit" class="h3 text-center hidden"></div>
-          <div class="clearfix"></div>
-      </form>
+        Have any questions or ideas which you want to make come to life? <a href="mailto:enquiries@calocodes.com">Email Me!</a>
       </div>
+    </a>
+
+    <div class="test">
+      
+      <div class="socials">
+        <a href="https://www.facebook.com/calocodes" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/calocodes" class="fa fa-instagram"></a>
+      </div>
+
+      <div class="copyright">
+        Copyright CaloCodes 2021
+      </div>
+    </div>
+
+
+  </div>
 
     
-    </div>
-
-    <div id=footer>
-    </div>
 
     
 </body>
 
-<script  type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-<script type="text/javascript" src="js/validator.min.js"></script>
-<script type="text/javascript" src="js/form-scripts.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+
+
 
 
 

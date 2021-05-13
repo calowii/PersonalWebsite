@@ -8,6 +8,11 @@
   src: url("../UbuntuMono-Regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Chapaza";
+  src: url("../Chapaza.ttf") format("truetype");
+}
+
 html, body {
   background-image: url("../img/bg.jpg");
   height: 100%;
@@ -40,7 +45,7 @@ nav.primary-navigation ul li {
 
 nav.primary-navigation li a {
   color: #604f3d;
-  font-family: "UbuntuMono";
+  font-family: "Chapaza";
   font-size: 20px;
 }
 
@@ -112,11 +117,13 @@ ul li ul li a {
 .box1 {
   float: left;
   width: 50%;
-  font-size: 30px;
+  font-size: 15px;
   text-align: center;
   font-family: "UbuntuMono";
   margin-top: 150px;
   margin-bottom: 110px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .box2 {
@@ -129,30 +136,59 @@ img.rounded-corners {
 }
 
 .about {
-  margin-top: 350px;
+  margin-top: 400px;
   padding-top: 160px;
-  text-align: center;
-  font-family: "UbuntuMono";
-}
-
-.certificates {
-  margin-top: 200px;
-  text-align: center;
-  font-family: "UbuntuMono";
+  font-family: "Chapaza";
+  font-size: 10px;
   margin-left: 70px;
   margin-right: 70px;
 }
 
+.certificates {
+  margin-top: 150px;
+  font-family: "Chapaza";
+  margin-left: 70px;
+  margin-right: 70px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 500px;
+}
+
 .projects {
-  margin-top: 400px;
-  text-align: center;
-  font-family: "UbuntuMono";
+  margin-top: 500px;
+  font-family: "Chapaza";
   width: 100%;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.cont {
+  margin-top: 400px;
+  font-family: "Chapaza";
+  width: 100%;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
 .footer {
   position: fixed;
   width: 100%;
+  text-align: center;
+  background-color: #604f3d;
+  color: white;
+  height: 100px;
+}
+
+.test {
+  margin-top: 100px;
+  padding-top: 40px;
+  height: 100px;
+  background-color: #604f3d;
+  color: white;
 }
 
 div.gallery {
@@ -174,5 +210,48 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+}
+
+.ml13 {
+  font-size: 1.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  font-weight: 600;
+}
+
+.ml13 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #D69C84;
+  color: white;
+}
+
+/* Twitter */
+.fa-instagram {
+  background: #D69C84;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.socials {
+  float: left;
+  width: 50%;
+}
+
+.copyright {
+  float: right;
+  width: 50%;
 }
 /*# sourceMappingURL=style.css.map */
